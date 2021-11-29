@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="pfdev-clang (80c034c0-b19d-4f53-8778-fdd104ed82d9)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/someip_cyclone_dds_bridge" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
