@@ -69,3 +69,23 @@ Following mapping can be made:
  * ToDo Connect API calls from client facing APIs
  * If time allows, add testing framework
  * if time allows, add implementation of extended SOME/IP services.
+
+## Getting Stared
+How to use the source code and the build system. 
+
+### Building
+As of now build is working on OSX/Darwin with prerequisites installed by Darwin.
+
+Prerequisites:
+* cmake `brew install cmake` version is 3.22
+* ninja `brew install ninja` version 1.10.2
+* bison `brew install bison` version 3.8.2
+* git   `brew install git`   version 2.34.1
+* ToDo Add vSomeIP dependencies
+
+### Dispatcher Concept
+
+### Dispatcher UML
+
+### Dispatcher sequence diagram
+
