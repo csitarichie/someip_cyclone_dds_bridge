@@ -19,7 +19,7 @@ SOME/IP Protocol itself defines the data serialisation and packet headers and co
 
 SIME/IP SD uses SOME/IP to implement message encoding / decoding.
 SOME/IP SD implements multicast discovery similar to bonjour.
-A SOME/IP implementation can be found here: [link]/(https://github.com/COVESA/vsomeip)]
+A SOME/IP implementation can be found here: [link]/(https://github.com/COVESA/vsomeip)
 
 ## What is iceoryx
 iceoryx - true zero-copy inter-process-communication
@@ -74,14 +74,17 @@ Following mapping can be made:
 How to use the source code and the build system. 
 
 ### Building
-As of now build is working on OSX/Darwin with prerequisites installed by Darwin.
+As of now build is working on ubuntu 18.04 bionic container on linux
 
 Prerequisites:
-* cmake `brew install cmake` version is 3.22
-* ninja `brew install ninja` version 1.10.2
-* bison `brew install bison` version 3.8.2
-* git   `brew install git`   version 2.34.1
-* ToDo Add vSomeIP dependencies
+* cmake `sudo apt install cmake` version is 3.22
+* ninja `sudo apt install ninja` version 1.10.2
+* bison `sudo apt install bison` version 3.8.2
+* git   `sudo apt install git`   version 2.34.1
+* boost `sudo apt sudo apt-get install libboost-system1.65-dev libboost-thread1.65-dev libboost-log1.65-dev` version 
+  1.65.0
+* libyml from source
+* P7 from source
 
 ### Dispatcher Concept
 

@@ -2,6 +2,17 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="loladev (fa96ca2d-1b94-40de-a969-55d6bcb9018f)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.4XrtLJDvYU" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-loladev" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug/iceoryx_examples" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="pfdev-clang (80c034c0-b19d-4f53-8778-fdd104ed82d9)">
         <serverdata>
           <mappings>

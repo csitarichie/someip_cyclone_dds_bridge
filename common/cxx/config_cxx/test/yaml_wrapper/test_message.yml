@@ -1,0 +1,28 @@
+---
+test_pb2.TestMessage:
+  s: foo
+  i: -7
+  b: true
+  u: 88
+  fl: 3.1415927410125732
+  rep_str:
+    - asd
+    - qwe
+    - yxc
+  rep_int:
+    - 1
+    - 2
+    - 3
+  rep_bool:
+    - 1
+    - True
+    - true
+    - 0
+    - false
+    - False
+  external_msg:
+    s: a
+    i: -12
+  nested_msg:
+    s: aaa
+    i: -500

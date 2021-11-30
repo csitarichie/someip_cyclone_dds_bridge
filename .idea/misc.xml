@@ -5,6 +5,7 @@
     <sourceRoots>
       <file path="$PROJECT_DIR$/cmake-build-debug/_deps/cyclonedds-src" />
       <file path="$PROJECT_DIR$/cmake-build-debug/_deps/iceoryx-src" />
+      <file path="$PROJECT_DIR$/cmake-build-debug/_deps/vsomeip-src" />
     </sourceRoots>
     <excludeRoots>
       <file path="$PROJECT_DIR$/cmake-build-debug/iceoryx_examples" />

@@ -1,0 +1,9 @@
+---
+logging:
+  client:
+    Sink: Console
+    Format: '%tf %tn %cn %mn [%lv] [%fn] %ms'
+    Trc.Verb: 1
+    Pool: 32768
+adapter:
+  port: 50101
